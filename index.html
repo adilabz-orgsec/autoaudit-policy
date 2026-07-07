@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoAudit - Account Deletion Request</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 { color: #1a73e8; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #202124; margin-top: 30px; }
+        .steps {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 6px solid #1a73e8;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .contact-box {
+            background: #e8f0fe;
+            padding: 15px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .footer { margin-top: 50px; font-size: 0.9em; color: #70757a; border-top: 1px solid #eee; pt: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Account Deletion Request</h1>
+    <p>At <strong>AutoAudit</strong>, we value your privacy and comply with Google Play's User Data policy. You have full control over your data and can request the permanent deletion of your account and all associated information at any time.</p>
+
+    <div class="steps">
+        <h2>How to delete your data:</h2>
+        <p><strong>1. Inside the App (Recommended):</strong><br>
+        Open AutoAudit &gt; Go to <strong>Settings</strong> &gt; <strong>Account</strong> &gt; Tap <strong>Delete Account</strong>. This will instantly delete your authentication record, local database, and disconnect your cloud backup.</p>
+
+        <p><strong>2. Via Email Request:</strong><br>
+        If you have already uninstalled the app or cannot access your device, you can request manual deletion by contacting us:</p>
+        <div class="contact-box">
+            Email: <strong>aditya@adilabz.com</strong><br>
+            Subject: <strong>Data Deletion Request - AutoAudit</strong>
+        </div>
+        <p>Please include the email address used for your AutoAudit account. We will process your request and purge all cloud-associated data within 7 business days.</p>
+    </div>
+
+    <h2>What data is deleted?</h2>
+    <ul>
+        <li><strong>Identity:</strong> Your Firebase Authentication profile (Email, UID, and Display Name).</li>
+        <li><strong>Financial Records:</strong> Your local transaction history, category mappings, and account balances.</li>
+        <li><strong>Preferences:</strong> All app settings, including currency choices and notification preferences.</li>
+        <li><strong>Analytics:</strong> Any anonymous diagnostic identifiers linked to your account.</li>
+    </ul>
+
+    <h2>Note on Personal Cloud Backups</h2>
+    <p>AutoAudit stores backups in a private folder on your <strong>personal Google Drive</strong>. While deleting your account from within the app disconnects this link, Google's security model requires that you manually delete the "AutoAudit_Backup" folder from your Drive if you wish to remove those specific physical files.</p>
+
+    <div class="footer">
+        <p>© 2026 AutoAudit / Adilabz-Orgsec. Last updated: July 7, 2026.</p>
+    </div>
+</body>
+</html>
